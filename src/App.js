@@ -38,7 +38,7 @@ function App() {
 
   return (
     <div className="App h-[100vh] flex justify-center items-center">
-      <div className="rounded-2xl w-[500px] h-[600px] dark:bg-dark dark:text-light text-dark bg-cyan-100 overflow-hidden">
+      <div className="h-full md:rounded-2xl w-[500px] md:h-[600px] dark:bg-dark dark:text-light text-dark bg-cyan-100 overflow-hidden">
         <div className="w-full h-[15%]  flex justify-end text-2xl p-6">
           {result ? <span className="text-xl pt-2">({result})</span> : ''}
           <span className="ml-2 text-4xl">{calc && calc || 0}</span>
